@@ -22,7 +22,7 @@ The best place to start an open discussion about potential changes is the [Cryst
 ### What's needed right now
 
 You can find a list of tasks that we consider suitable for a first time contribution at
-the [newcomer label](https://github.com/crystal-lang/crystal/issues?q=is%3Aissue+is%3Aopen+label%3Acommunity%3Anewcomer).
+the [good first issues page]([https://github.com/crystal-lang/crystal/issues?q=is%3Aissue+is%3Aopen+label%3Acommunity%3Anewcomer](https://github.com/crystal-lang/crystal/contribute)).
 
 As you feel more confident, you can keep an eye out for open issues with the following labels:
 * [`community:to-research`](https://github.com/crystal-lang/crystal/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Acommunity%3Ato-research): Help needed on **researching and investigating** the issue at hand; could be from going through an RFC to figure out how something _should_ be working, to go through details on a C-library we'd like to bind.

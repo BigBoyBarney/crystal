@@ -502,10 +502,10 @@ describe Socket do
   # cases that were once known to break on certain platforms when `Socket.ip?`
   # was still using the system `inet_pton`
   it ".ip?" do
-    Socket.ip?("1.2.03.4").should be_false
-    Socket.ip?("::012.34.56.78").should be_false
-    Socket.ip?("a:0b:00c:000d:0000e:f::").should be_false
-    Socket.ip?("::1:2:3:4:5:6:7").should be_true
+    Socket::IPAddress.valid?("1.2.03.4").should be_false
+    Socket::IPAddress.valid?("::012.34.56.78").should be_false
+    Socket::IPAddress.valid?("a:0b:00c:000d:0000e:f::").should be_false
+    Socket::IPAddress.valid?("::1:2:3:4:5:6:7").should be_true
   end
 
   it "==" do
